@@ -12,45 +12,75 @@ body {
 }
 
 #wrap {
-  width: 1000px;
+  width: 1100px;
   margin: 0 auto;
 }
 
-h3 {
+.library {
   color: #404040;
 }
 
 .java, .wooCommerce, .django, .javaFx {
-  color: #666666;
+  color: #999999;
   background-color: #fff;
-  height: 250px;
-  border-radius: 5px;
+  height: 300px;
+  border-radius: 4px;
+  font-size: 14px;
+  -webkit-box-shadow: 0 6px 8px -8px grey;
+	   -moz-box-shadow: 0 6px 8px -8px grey;
+	        box-shadow: 0 6px 8px -8px grey;
+}
+
+.java h4,
+.wooCommerce h4,
+.django h4,
+.javaFx h4{
+  padding: 10px 30px 0 30px;
+  margin-bottom: 0px;
+}
+
+.java h3,
+.wooCommerce h3,
+.django h3,
+.javaFx h3{
+  padding: 0 30px 0 30px;
+  color: #404040;
+  margin-top: 5px;
+}
+
+.desc {
+  padding: 0 30px 0 30px;
 }
 
 .javaTop {
   background-color: #2C9676;
   color: #fff;
   padding: 20px 40px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 14px;
+}
+
+.circleButton {
+  padding-right: 30px;
 }
 
 .wooTop {
   background-color: #838CC7;
   color: #fff;
-  color: #fff;
   padding: 20px 40px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 14px;
 }
 
 .djangoTop {
   background-color: #F092B0;
   color: #fff;
-  color: #fff;
   padding: 20px 40px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  font-size: 14px;
 }
 
 #column1 {
@@ -61,24 +91,92 @@ h3 {
   float: right;
 }
 
-.icon {
-  float: right;
-  display: inline;
-  padding-right: 8px;
-}
-
 .nav-navbar {
   display: inline;
   font-size: 20px;
+  color: #999999;
+}
+
+button {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 2px solid #EDF0F1;
+  font-size: 13px;
+  font-weight: bold;
+  color: #999999;
+  margin-top: 35px;
+}
+
+button[name="intermediate"] {
+  margin-left: 5px;
+}
+
+button[name="rightButton"] {
+  border-radius: 50%;
+  padding: 10px 13px;
+  color: #b8c0c7;
+  float:right;
+  margin-left: 10px;
+}
+
+button[name="javaButton"] {
+  color: #2C9676;
+  margin-left: 30px;
+}
+
+button[name="wordPress"] {
+  color: #838CC7;
+  margin-left: 30px;
+}
+
+button[name="python"] {
+  color: #F092B0;
+  margin-left: 30px;
 }
 
 hr {
-  height: 12px;
+  height: 5px;
   border: 0;
   box-shadow: inset 0 7px 7px -7px rgba(0, 0, 0, 0.5);
   clear: both;
 }
 
+.time {
+  float: right;
+  clear: both;
+  font-size: 13px;
+}
+
 #column1, #column2 {
-  width: 490px;
+  width: 530px;
+}
+
+.fa-user-secret, {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.fa-arrow-down {
+  margin-right: 20px;
+}
+
+.fa-arrow-circle-o-right {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.fa-bell {
+  margin-left: 20px;
+}
+
+#column1, #column2 h3{
+  font-weight: bold;
+}
+
+.icon {
+  float: right;
+  display: inline;
+  color: #b8c0c7;
+  font-size: 24px;
 }
