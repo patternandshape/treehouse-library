@@ -44,10 +44,11 @@ h3 {
 #column2 {
   float: right;
 }
-/*
-#header h3 {
-  float:left;
-}*/
+
+.icon {
+  float: right;
+  display: inline;
+}
 
 .nav-navbar {
   display: inline;
@@ -58,6 +59,7 @@ hr {
   height: 12px;
   border: 0;
   box-shadow: inset 0 7px 7px -7px rgba(0, 0, 0, 0.5);
+  clear: both;
 }
 
 #column1, #column2 {
