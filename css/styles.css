@@ -24,19 +24,35 @@ h3 {
   color: #666666;
   background-color: #fff;
   height: 250px;
+  border-radius: 5px;
 }
 
 .javaTop {
   background-color: #2C9676;
+  color: #fff;
+  padding: 20px 40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .wooTop {
   background-color: #838CC7;
+  color: #fff;
+  color: #fff;
+  padding: 20px 40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .djangoTop {
   background-color: #F092B0;
+  color: #fff;
+  color: #fff;
+  padding: 20px 40px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
+
 #column1 {
   float:left;
 
@@ -48,6 +64,7 @@ h3 {
 .icon {
   float: right;
   display: inline;
+  padding-right: 8px;
 }
 
 .nav-navbar {
@@ -63,5 +80,5 @@ hr {
 }
 
 #column1, #column2 {
-  width: 470px;
+  width: 490px;
 }
