@@ -1,0 +1,65 @@
+*,
+*::before
+*::after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Varela Round', sans-serif;
+  background-color: #EDEFF0;
+}
+
+#wrap {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+h3 {
+  color: #404040;
+}
+
+.java, .wooCommerce, .django, .javaFx {
+  color: #666666;
+  background-color: #fff;
+  height: 250px;
+}
+
+.javaTop {
+  background-color: #2C9676;
+}
+
+.wooTop {
+  background-color: #838CC7;
+}
+
+.djangoTop {
+  background-color: #F092B0;
+}
+#column1 {
+  float:left;
+
+}
+#column2 {
+  float: right;
+}
+/*
+#header h3 {
+  float:left;
+}*/
+
+.nav-navbar {
+  display: inline;
+  font-size: 20px;
+}
+
+hr {
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 7px 7px -7px rgba(0, 0, 0, 0.5);
+}
+
+#column1, #column2 {
+  width: 470px;
+}
